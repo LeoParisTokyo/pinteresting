@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.2.1'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'devise', '~> 3.5.5'
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
