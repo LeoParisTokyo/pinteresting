@@ -39,6 +39,8 @@ Rails.application.configure do
   # Required for Devise/Heroku
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
+   Paperclip.options[:command_path] = "/user/local/bin/"
+
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end
