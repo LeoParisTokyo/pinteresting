@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise', '~> 3.5.5'
 gem 'paperclip', '~> 4.3'
+gem 'aws-sdk', '~> 2.2.14'
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
